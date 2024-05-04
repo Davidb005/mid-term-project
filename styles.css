@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 .nav-logo {
   margin: 20px;
@@ -26,10 +27,13 @@
   color: white;
   background-color: blue;
   font-size: 23px;
+  margin-right: 20px;
 }
 
 .title-section {
   display: flex;
+  margin-left: 382px;
+  align-self: center;
 }
 .title-container {
   width: 50%;
@@ -122,7 +126,7 @@
     width: 1500px;
     height: 1000px;
     margin-bottom: 150px;
-    margin-left: 75px
+    margin-left: 427px
 }
 .testimony-title{
     color: #D1EDFF;
@@ -220,19 +224,19 @@
 .contact-title{
     font-size: 43px;
     position: absolute;
-    left: 569px;
+    left: 812px;
     top: 65px;
   }
   .contact-text{
     font-size: 18px;
     position: absolute;
-    left: 762px;
+    left: 992px;
     top: 135px;
   }
   .input-container{
     display: flex;
     position: absolute;
-    left: 563px;
+    left: 823px;
     top: 241px;
   }
   .email {
@@ -255,6 +259,10 @@
     width: 160px;
     height: 50px
 }
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
 .footerlogo-container{
     display: flex;
     flex-direction: column;
@@ -262,6 +270,28 @@
     margin-left: 95px;
 }
 .footer-logo{
-    height: 50px;
-    width: 50px
+    height:50px;
+    width: 100px
+}
+.address{
+  margin-bottom: 30px;
+}
+.footercontact-container{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}  
+.footer-contact1{
+  display: flex;
+  width: 50%;
+  color: #292E47;
+  justify-content: space-evenly;
+}
+.footer-contact2{
+  display: flex;
+  width: 50%;
+  color: #292E47;
+  justify-content: space-evenly;
+  margin-left: 10px;
 }
