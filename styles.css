@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  margin: 20px;
+}
+
+.nav-text {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav-text h3 {
+  margin-right: 70px;
+}
+
+.nav-button {
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: blue;
+  font-size: 23px;
+}
+
+.title-section {
+  display: flex;
+}
+.title-container {
+  width: 50%;
+}
+.title {
+  font-size: 80px;
+  display: inline-block;
+  word-wrap: break-word;
+  position: relative;
+  margin-left: 95px;
+  margin-bottom: 30px;
+  margin-top: 200px;
+}
+
+.title-text {
+  word-wrap: break-word;
+  margin-left: 95px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.title-btn-container {
+  display: flex;
+}
+.title-button {
+  background-color: blue;
+  color: white;
+  height: 60px;
+  width: 150px;
+  margin-left: 95px;
+  font-size: 17px;
+  margin-bottom: 200px;
+  margin-right: 38px;
+}
+.title-btn-text {
+  font-size: 17px;
+  padding-top: 20px;
+  color: gray;
+}
+.heroimg-container{
+    position: relative;
+}
+.hero-img1 {
+    position: relative;
+    width: 500px;
+    margin-top: 63px;
+  }
+  .hero-img2 {
+    width: 200px;
+    position: absolute;
+    left: -15px;
+    top: 83px;
+    border-radius: 50px;
+  }
+  .hero-img3 {
+    width: 200px;
+    position: absolute;
+    left: 316px;
+    top: 484px;
+    border-radius: 50px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px
+  }
+  .title2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    margin-left: 95px;
+  }
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center
+}
+  .project1-img {
+    width: 250px;
+    height: 200px;
+  }
+.project1-text{
+    margin-bottom: 45px;
+    background-color: white;
+}
+.project1-container{
+    margin-bottom: 150px;
+}
+.testimony-section {
+    background-color: #292E47;
+    position: relative;
+    width: 1500px;
+    height: 1000px;
+    margin-bottom: 150px;
+    margin-left: 75px
+}
+.testimony-title{
+    color: #D1EDFF;
+    font-size: 50px;
+    padding-top: 127px;
+    text-align: center 
+}
+.quote{
+    color: #FFC600;
+    font-size: 3em;
+    position: absolute;
+    left: 273px;
+    top: 471px;
+}
+.profile-container{
+    display: inline-block;
+    position: absolute;
+    left: 692px;
+    top: 774px;
+}
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+.profile-name{
+    color: #D1EDFF;
+    font-size: 18px;
+}
+.profile-company{
+    color: #F2F4FC;
+}
+.emoji1{
+    position: absolute;
+    left: 9px;
+    top: 24px;
+    width: 145px;
+}
+.emoji2{
+    position: absolute;
+    left: 60px;
+    top: 774px;
+    width: 145px;
+}
+.emoji3{
+    position: absolute;
+    left: 1264px;
+    top: 24px;;
+    width: 145px;;
+}
+.emoji4{
+    position: absolute;
+    left: 1264px;
+    top: 774px;
+    width: 145px;
+}
+.services-title{
+    margin-left: 95px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.service-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;  
+    margin-bottom: 50px;
+}
+.service-container{
+    width: 300px
+}
+.servicelogo-img{
+    border-radius: 50%;
+    background-color: #ECF7FF;
+    width: 55px;
+    margin-bottom: 50px;
+}
+.servicelogo-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.servicelogo-text{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.contact-section{
+    background-color: #FFC600;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    height: 450px;
+    position: relative;
+}
+.contact-title{
+    font-size: 43px;
+    position: absolute;
+    left: 569px;
+    top: 65px;
+  }
+  .contact-text{
+    font-size: 18px;
+    position: absolute;
+    left: 762px;
+    top: 135px;
+  }
+  .input-container{
+    display: flex;
+    position: absolute;
+    left: 563px;
+    top: 241px;
+  }
+  .email {
+  text-align: center;
+  display: flex;
+  -ms-flex-align: center;
+  background-image: url(/src/mail.svg);
+  background-size: 60px 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin: 10px;
+  width: 320px;
+  height: 50px;
+  padding-left: 10px;
+}
+.contact-button{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    width: 160px;
+    height: 50px
+}
+.footerlogo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 95px;
+}
+.footer-logo{
+    height: 50px;
+    width: 50px
+}

@@ -1,33 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mid-term project</title>
-    <nav>
-        <h2>Circle</h2>
-        <h3>home Project Services</h3>
-        <Button>Contact us</Button>
-    </nav>
-</head>
-<body>
-    <section>
-        <div>
-        <h1>Empower Your Business With Stunning Design!</h1>
-        <p>Circle is a digital desing and developement studio. We design and develop astonishing websites and mobile apps.</p>
-        <div>
-            <button>Get in touch</button>
-            <p>See our work</p>
-        </div>
-        </div>
-        <div>
-            <img src="" alt="">
-        </div>
+    <link rel="stylesheet" href="/styles.css">
 
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="nav-logo">
+          <img src="/src/circle.svg" alt="circle-img" />
+        </div>
+        <div class="nav-text">
+          <h3>Home</h3>
+          <h3>Projects</h3>
+          <h3>Services</h3>
+        </div>
+        <div>
+          <button class="nav-button">Contact Us</button>
+        </div>
+      </nav>
+    <section class="title-section">
+      <div class="title-container">
+        <h1 class="title">Empower Your Business With Stunning Design!</h1>
+        <p class="title-text">
+          Circle is a digital desing and developement studio. We design and
+          develop astonishing websites and mobile apps.
+        </p>
+        <div class="title-btn-container">
+          <button class="title-button">Get in touch</button>
+          <p class="title-btn-text">See our work</p>
+        </div>
+      </div>
+      <div class="heroimg-container">
+        <img class="hero-img1" src="/src/hero-image.png" alt="hero-img" />
+        <img class="hero-img2" src="/src/card-1.png" alt="card1-img" />
+        <img class="hero-img3" src="/src/card-2.png" alt="card2-img" />
+      </div>
+    </section>
+    <section>
+      <div class="logo-container">
+        <img src="/src/airbnb-logo.svg" alt="airbnb-img" />
+        <img src="/src/google-logo.svg" alt="google-img" />
+        <img src="/src/microsoft-logo.svg" alt="microsoft-img" />
+        <img src="/src/fedex-logo.svg" alt="fedex-img" />
+        <img src="/src/amazon-logo.svg" alt="amazon-img" />
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3 class="title2">Recent Projects</h3>
+      </div>
+      <div class="img-container">
+        <div class="project1-container">
+        <img class="project1-img" src="/src/1.jpg" alt="project1-img" />
+          <h3>Simplify</h3>
+          <p class="project1-text">UI design & App Developemen</p>
+          <a href="">Learn more</a>
+        </div>
+        <div class="project1-container">
+        <img class="project1-img" src="/src/2.jpg" alt="project2-img" />
+          <h3>Dashcoin</h3>
+          <p class="project1-text">Web Developement</p>
+          <a href="">Learn more</a>
+        </div>
+        <div class="project1-container">
+        <img class="project1-img" src="/src/3.jpg" alt="project3-img" />
+          <h3>Vectorify</h3>
+          <p class="project1-text">User Experience Design</p>
+          <a href="">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="testimony-section">
+      <div>
+        <h2 class="testimony-title">Hear What Our Clients Have to Say</h2>
+        <q class="quote">
+          Circle helped us through every stage of our startup. <br />
+          We really enjoyed working with you</q>
+        <div class="profile-container">
+          <img class="profile-pic" src="src/profile.png" alt="profile-img" />
+          <div clas="profile-text">
+            <h3 class="profile-name">Kristin Watson</h3>
+            <p class="profile-company">Booking.com</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="emoji1" src="/src/memoji-1.png" alt="emoji1" />
+        <img class="emoji2" src="/src/memoji-2.png" alt="emoji2" />
+      </div>
+      <div>
+        <img class="emoji3" src="src/memoji-3.png" alt="emoji3" />
+        <img class="emoji4" src="src/memoji-4.png" alt="emoji4" />
+      </div>
+    </section>
+    <section>
+        <h2 class="services-title">Our Services</h2>
+    <div class="service-section">
+        <div class="service-container">
+            <img class="servicelogo-img" src="/src/1.svg" alt="logo-1">
+            <h3 class="servicelogo-title">User Interface Design</h3>
+            <p class="servicelogo-text">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+            <a href="">Learn more</a>
+        </div>
+        <div class="service-container">
+            <img class="servicelogo-img" src="/src/2.svg" alt="logo-2">
+            <h3 class="servicelogo-title">User Experience</h3>
+            <p class="servicelogo-text">Circle always focuses on delivering the best user experience to customers.</p>
+            <a href="">Learn more</a>
+        </div>
+        <div class="service-container">
+            <img class="servicelogo-img" src="/src/3.svg" alt="logo-3">
+            <h3 class="servicelogo-title">Application Developement</h3>
+            <p class="servicelogo-text"> We develop high-quality mobile and web aplications using the latest technology stack.</p>
+            <a href="">Learn more</a>
+        </div>
+    </div>
+    </section>
+    <section class="contact-section">
+        <div>
+            <h2 class="contact-title">Do you have any questions?</h2>
+            <p class="contact-text">Let us help you!</p>
+            <div class="input-container">
+                <input class ="email" type="email" placeholder="Enter your email">
+                <button class="contact-button">Subscribe</button>
+            </div>
+        </div>
     </section>
 
-    
+    <footer>
+        <div class="footerlogo-container">
+            <img class="footer-logo" src="/src/circle.svg" alt="circle-img" />
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 8548</p>
+        </div>
+        <div class="footercontact-container">
+            <div>
+                <p class="footer-contact1">Team Services About us</p>
+            </div>
+            <div class="footer-contact2">
+                Press Projects Privacy Policy
+            </div>
+        </div>
+    </footer>
 
-    <button>trial for saving</button>
-</body>
+  </body>
 </html>
