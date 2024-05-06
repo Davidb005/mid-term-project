@@ -31,9 +31,11 @@
 .title {
   font-size: 40px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 .Simplify-text {
   color: #6b708d;
+  margin-left: 20px;
 }
 .title-text-container {
   margin-bottom: 30px;

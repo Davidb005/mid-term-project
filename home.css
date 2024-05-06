@@ -32,7 +32,7 @@
 
 .title-section {
   display: flex;
-  margin-left: 382px;
+  margin-left: 80px;
   align-self: center;
 }
 .title-container {
@@ -123,10 +123,11 @@
 .testimony-section {
     background-color: #292E47;
     position: relative;
-    width: 1500px;
+    width: 1430px;
     height: 1000px;
     margin-bottom: 150px;
-    margin-left: 427px
+    margin-right: 100px;
+    margin-left: 80px
 }
 .testimony-title{
     color: #D1EDFF;
@@ -213,33 +214,33 @@
     color: gray;
     margin-bottom: 20px;
 }
-.contact-section{
-    background-color: #FFC600;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    height: 450px;
-    position: relative;
+.contact-section {
+  background-color: #ffc600;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  height: 450px;
+  position: relative;
 }
-.contact-title{
-    font-size: 43px;
-    position: absolute;
-    left: 812px;
-    top: 65px;
-  }
-  .contact-text{
-    font-size: 18px;
-    position: absolute;
-    left: 992px;
-    top: 135px;
-  }
-  .input-container{
-    display: flex;
-    position: absolute;
-    left: 823px;
-    top: 241px;
-  }
-  .email {
+.contact-title {
+  font-size: 43px;
+  position: absolute;
+  left: 522px;
+  top: 65px;
+}
+.contact-text {
+  font-size: 18px;
+  position: absolute;
+  left: 702px;
+  top: 135px;
+}
+.input-container {
+  display: flex;
+  position: absolute;
+  left: 519px;
+  top: 241px;
+}
+.email {
   text-align: center;
   display: flex;
   -ms-flex-align: center;
@@ -252,46 +253,47 @@
   height: 50px;
   padding-left: 10px;
 }
-.contact-button{
-    background-color: blue;
-    color: white;
-    margin: 10px;
-    width: 160px;
-    height: 50px
+.contact-button {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  width: 160px;
+  height: 50px;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
 }
-.footerlogo-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 95px;
+.footerlogo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 100px;
 }
-.footer-logo{
-    height:50px;
-    width: 100px
+.footer-logo {
+  height: 50px;
+  width: 100px;
 }
-.address{
+.address {
   margin-bottom: 30px;
 }
-.footercontact-container{
+.footercontact-container {
   display: flex;
   width: 50%;
   flex-direction: column;
-  justify-content: space-between;
-}  
-.footer-contact1{
-  display: flex;
-  width: 50%;
-  color: #292E47;
   justify-content: space-evenly;
 }
-.footer-contact2{
+.footer-contact1 {
   display: flex;
   width: 50%;
-  color: #292E47;
+  color: #292e47;
+  justify-content: space-evenly;
+}
+.footer-contact2 {
+  display: flex;
+  width: 50%;
+  color: #292e47;
   justify-content: space-evenly;
   margin-left: 10px;
 }
