@@ -10,12 +10,14 @@
 }
 .nav-logo {
   margin: 20px;
+  margin-left: 100px;
 }
 
 .nav-text {
   padding: 30px;
   display: flex;
   align-items: center;
+  margin-left: 60px;
 }
 .nav-text h3 {
   margin-right: 70px;
@@ -27,7 +29,7 @@
   color: white;
   background-color: blue;
   font-size: 23px;
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 .title-section {

@@ -6,15 +6,18 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 .nav-logo {
   margin: 20px;
+  margin-left: 100px;
 }
 
 .nav-text {
   padding: 30px;
   display: flex;
   align-items: center;
+  margin-left: 60px;
 }
 .nav-text h3 {
   margin-right: 70px;
@@ -26,16 +29,16 @@
   color: white;
   background-color: blue;
   font-size: 23px;
-  margin-right: 20px;
+  margin-right: 100px;
 }
 .title {
   font-size: 40px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 100px;
 }
 .Simplify-text {
   color: #6b708d;
-  margin-left: 20px;
+  margin-left: 100px;
 }
 .title-text-container {
   margin-bottom: 30px;
@@ -45,17 +48,17 @@
 
 .project-image {
   height: 530px;
-  width: 1570px;
+  width: 1470px;
   margin-bottom: 35px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 130px;
 }
 .text-container {
-  margin-left: 20px;
+  margin-left: 100px;
   margin-right: 20px;
   font-size: large;
   color: #6b708d;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .text-container1 {
   margin-bottom: 20px;
@@ -84,7 +87,7 @@
 }
 .contact-section {
   background-color: #ffc600;
-  margin-left: 50px;
+  margin-left: 120px;
   margin-right: 50px;
   margin-bottom: 50px;
   height: 450px;
@@ -93,19 +96,19 @@
 .contact-title {
   font-size: 43px;
   position: absolute;
-  left: 522px;
+  left: 473px;
   top: 65px;
 }
 .contact-text {
   font-size: 18px;
   position: absolute;
-  left: 702px;
+  left: 654px;
   top: 135px;
 }
 .input-container {
   display: flex;
   position: absolute;
-  left: 519px;
+  left: 462px;
   top: 241px;
 }
 .email {
