@@ -139,8 +139,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 95px;
+  margin-left: 130px;
   margin-right: 100px;
+  width: 50%;
 }
 .footer-logo {
   height: 50px;
@@ -154,6 +155,7 @@
   width: 50%;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 300px;
 }
 .footer-contact1 {
   display: flex;

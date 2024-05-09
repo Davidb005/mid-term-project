@@ -1,152 +1,141 @@
 * {
-    margin: 0;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-  .nav-logo {
-    margin: 20px;
-    margin-left:100px;
-  }
-  
-  .nav-text {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    margin-left: 60px;
-  }
-  .nav-text h3 {
-    margin-right: 70px;
-  }
-  
-  .nav-button {
-    width: 150px;
-    height: 60px;
-    color: white;
-    background-color: blue;
-    font-size: 23px;
-    margin-right: 100px;
-  }
-  .form-title{
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 100px;
-  }
-  .form-text{
-    color:#6B708D
-  }
-  .name-container{
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .name-input{
-    width: 100%;
-    background-color: #F2F4FC;
-    height: 60px;
-    margin-bottom: 20px;
-  }
-  .input-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-.email-container{
-    width: 50%;
-    margin-left: 100px;
+  margin: 0;
 }
-.email-input{
-    width: 100%;
-    background-color:#F2F4FC;
-    height: 60px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-.phone-container{
-    display: flex;
-    width: 50%;
-    margin-right: 100px;
-    margin-left: 150px;
-    flex-direction: column;
-    justify-content: left 
-    
-}
-.phone-input{
-    width: 100%;
-    background-color:#F2F4FC;
-    height: 60px;
-}
-.message-container{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.message-input{
-    width: 100%;
-    height: 200px;
-    background-color: #F2F4FC;
-    display: flex;
-    align-items: center;
-}
-.button-container{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-.submit-button{
-    width: 100%;
-    height: 60px;
-    background-color: blue;
-    color: white;
-   
+.nav-logo {
+  margin: 20px;
+  margin-left: 100px;
 }
 
+.nav-text {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.nav-text h3 {
+  margin-right: 70px;
+}
 
-
-
-
-
-
-
-
-
-
-  .footer {
-    display: flex;
-    justify-content: space-around;
-  }
-  .footerlogo-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 95px;
-    margin-right: 100px;
-  }
-  .footer-logo {
-    height: 50px;
-    width: 100px;
-  }
-  .address {
-    margin-bottom: 30px;
-  }
-  .footercontact-container {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .footer-contact1 {
-    display: flex;
-    width: 50%;
-    color: #292e47;
-    justify-content: space-evenly;
-  }
-  .footer-contact2 {
-    display: flex;
-    width: 50%;
-    color: #292e47;
-    justify-content: space-evenly;
-    margin-left: 10px;
-  }
+.nav-button {
+  width: 150px;
+  height: 60px;
+  color: white;
+  background-color: blue;
+  font-size: 23px;
+  margin-right: 100px;
+}
+.form-title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.form-text {
+  color: #6b708d;
+}
+.name-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.name-input {
+  width: 100%;
+  background-color: #f2f4fc;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.email-container {
+  width: 50%;
+  margin-left: 100px;
+}
+.email-input {
+  width: 100%;
+  background-color: #f2f4fc;
+  height: 60px;
+}
+.phone-container {
+  display: flex;
+  width: 50%;
+  margin-right: 100px;
+  margin-left: 150px;
+  flex-direction: column;
+  justify-content: left;
+}
+.phone-input {
+  width: 100%;
+  background-color: #f2f4fc;
+  height: 60px;
+}
+.message-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.message-input {
+  width: 100%;
+  height: 200px;
+  background-color: #f2f4fc;
+  display: flex;
+  align-items: center;
+}
+.button-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.submit-button {
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footerlogo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 100px;
+  width: 50%;
+}
+.footer-logo {
+  height: 50px;
+  width: 100px;
+}
+.address {
+  margin-bottom: 30px;
+}
+.footercontact-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 300px;
+}
+.footer-contact1 {
+  display: flex;
+  width: 50%;
+  color: #292e47;
+  justify-content: space-evenly;
+}
+.footer-contact2 {
+  display: flex;
+  width: 50%;
+  color: #292e47;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
