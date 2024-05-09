@@ -19,7 +19,7 @@ submitButton.addEventListener("click", () => {
 });
 
 submitButton.addEventListener("click", () => {
-  if (typeof phoneBar.value !== "number") {
+  if (isNaN(phoneBar.value)) {
     alert("incorrect telephone number");
   } else {
     console.log(phoneBar.value);
